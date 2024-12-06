@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url('../images/itso-bg.png');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: #284e15;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+}
+
+.header-left a img {
+    width: 300px;
+    height: auto;
+
+}
+
+.header-center {
+    display: flex;
+    gap: 30px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: #284e15;
+    font-size: 1em;
+    transition: color 0.3s ease;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.header-links:hover {
+    color: #f0a500;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #284e15;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: #284e15;
+}
+
+/* Profile icon specific styling */
+.profile-link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Font Awesome profile icon styling */
+.profile-icon {
+    font-size: 30px; /* Adjust icon size */
+    color: #fff; /* Icon color */
+    transition: opacity 0.3s ease;
+}
+
+.profile-icon:hover {
+    opacity: 0.8; /* Add hover effect */
+}
